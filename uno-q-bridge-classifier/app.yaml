@@ -1,0 +1,8 @@
+name: Uno Q Bridge Classifier
+description: This example showcases person classification on camera, using a camera stream from USB camera
+ports: []
+bricks:
+- arduino:video_image_classification:
+    model: ei-model-1036889-1
+- arduino:web_ui: {}
+icon: 🚶‍♂️
